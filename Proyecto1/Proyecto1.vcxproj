@@ -67,12 +67,14 @@
     <ClInclude Include="InfoPelicula.h" />
     <ClInclude Include="ListaPelicula.h" />
     <ClInclude Include="NodoPelicula.h" />
+    <ClInclude Include="Sala.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="InfoPelicula.cpp" />
     <ClCompile Include="ListaPelicula.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="NodoPelicula.cpp" />
+    <ClCompile Include="Sala.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

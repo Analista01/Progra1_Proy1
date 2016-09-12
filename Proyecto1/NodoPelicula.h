@@ -11,7 +11,7 @@ private:
 	NodoPelicula* aSiguiente;
 
 public:
-	NodoPelicula(string, string, string, string, string, string);
+	NodoPelicula(string, string, string, string, string, string, int);
 	~NodoPelicula(void);
 	void setSiguiente(NodoPelicula*);
 	NodoPelicula* getSiguiente();
